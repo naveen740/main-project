@@ -1,0 +1,53 @@
+.home-container{
+    background-color: white;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    margin-top: -15px;
+    margin-bottom: 25px;
+}
+
+.home-top{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transform: translateY(15px);
+}
+
+.btn{
+    padding: 18px;
+    border-radius: 18px;
+    outline: none;
+border: none;
+}
+
+.btn-one{
+    background: rgb(195,197,207);
+background: radial-gradient(circle, rgba(195,197,207,1) 5%, rgba(216,70,252,1) 100%);
+text-decoration: none;
+text-align: center;
+color: #000;
+}
+
+
+.btn-two{
+    background: #00B4DB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.btn-three{
+    background: #FDC830;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.btn-four{
+    background: rgb(222,6,97);
+    background: radial-gradient(circle, rgba(195,197,207,1) 5%, rgb(222,6,97,1) 80%);
+}

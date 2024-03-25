@@ -1,0 +1,105 @@
+/* Success.css */
+
+/* Container styles */
+.success-container {
+  padding: 20px;
+}
+
+/* Header styles */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 2rem;
+  color: #28a745; /* Primary color */
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #6c757d; /* Neutral color */
+}
+
+/* Order details styles */
+.order-details {
+  margin-bottom: 30px;
+}
+
+.order-info {
+  margin-bottom: 15px;
+}
+
+.order-info .label {
+  font-weight: bold;
+  color: #333; /* Dark color */
+}
+
+.order-info .value {
+  color: #6c757d; /* Neutral color */
+}
+
+/* Order summary styles */
+.order-summary {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.summary-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.summary-item {
+  margin-bottom: 15px;
+}
+
+.summary-item p {
+  margin: 5px 0;
+  color: #6c757d; /* Neutral color */
+}
+
+.total-price {
+  text-align: right;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #dc3545; /* Error color */
+}
+
+.total-price span {
+  color: #333; /* Dark color */
+}
+
+/* Mobile-specific styles */
+@media only screen and (max-width: 768px) {
+  .order-details,
+  .order-summary {
+    padding: 15px;
+  }
+
+  .header h1 {
+    font-size: 1.8rem;
+  }
+
+  .header p {
+    font-size: 1rem;
+  }
+
+  .order-info .label {
+    font-size: 0.9rem;
+  }
+
+  .order-info .value {
+    font-size: 0.9rem;
+  }
+
+  .summary-item p {
+    font-size: 0.9rem;
+  }
+
+  .total-price {
+    font-size: 1rem;
+  }
+}

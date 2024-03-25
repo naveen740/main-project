@@ -1,0 +1,54 @@
+.info-container{
+    padding: 15px;
+    transform: translateY(-10px);
+}
+.info-btn{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    gap: 15px;
+}
+
+.pgbtn{
+    background-color: white;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    height: 45px;
+    font-size: 18px;
+    outline: none;
+border: none;
+transition: box-shadow 0.3s ease;
+    
+}
+
+.info-icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 5px;
+}
+
+.info-iconstyle{
+   font-size: 15px;
+   padding: 7px;
+   border-radius: 5px;
+   font-size: 20px;
+}
+
+
+.button1{
+    color: rgb(151, 52, 228);
+    background-color: rgb(211, 199, 253);
+}
+.button2{
+    color: rgb(196, 118, 30);
+    background-color: rgb(224, 193, 162);
+}
+.button3{
+    color: rgb(52, 105, 228);
+    background-color: rgb(231, 182, 235);
+}
+.button4{
+    color: rgb(8, 129, 194);
+    background-color: rgb(148, 215, 227);
+}

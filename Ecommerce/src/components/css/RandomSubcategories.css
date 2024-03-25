@@ -1,0 +1,61 @@
+/* RandomSubcategories.css */
+
+.category-container {
+    margin-bottom: 20px;
+  }
+  
+  .category-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .subcategory-slider {
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none; /* Hide scrollbar for browsers that support it */
+    -ms-overflow-style: none; /* Hide scrollbar for IE/Edge */
+  }
+  
+  .subcategory-slider::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for WebKit/Blink */
+  }
+  
+  /* RandomSubcategories.css */
+
+.subcategory-card {
+    display: inline-block;
+    width: 100%; /* Set card width to 100% of viewport width */
+    max-width: 200px; /* Set maximum width for better readability */
+    margin-right: 20px; /* Adjust margin between cards as needed */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  
+  .subcategory-image {
+    width: 100%;
+    height: 150px; /* Adjust image height as needed */
+    object-fit: cover;
+  }
+  
+  .subcategory-details {
+    padding: 10px;
+  }
+  
+  .subcategory-name {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .subcategory-description {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .subcategory-card {
+      width: 150px; /* Adjust card width for smaller screens */
+    }
+  }
+  

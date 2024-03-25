@@ -1,0 +1,114 @@
+.top{
+    background-color: rgb(0, 157, 255);
+    
+
+}
+
+.profile-image {
+  border-radius: 50%; /* Makes the image round-shaped */
+  width: 50px; /* Adjust the width to make the image smaller */
+  height: 50px; /* Adjust the height to make the image smaller */
+}
+
+.logo-container{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(0, 157, 255); */
+    padding: 1rem;
+    height: fit-content;
+}
+
+/* .one{
+    width:20px;
+    height:20px;
+    padding: 10px;
+    border-radius: 100%;
+    background-color: orange;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+} */
+
+.one-two{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    column-gap: 10px;
+}
+
+.customer-name{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.three{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+}
+.two{
+    color: white;
+}
+
+.logo-container .three .phone-icon {
+    color: white /* Styling for the Phone icon */;
+    background-color: rgb(8, 144, 228);
+    padding: 5px;
+    border-radius: 3px;
+  }
+  
+  .logo-container .three .envelope-icon {
+    color: white; /* Styling for the Envelope icon */
+   
+    background-color: rgb(8, 144, 228);
+    padding: 5px;
+    border-radius: 3px;
+  }
+  
+  .logo-container .three .whatsapp-icon {
+    color: white; /* Styling for the WhatsApp icon */
+   
+    background-color: rgb(8, 144, 228);
+    padding: 5px;
+    border-radius: 3px;
+  }
+  
+
+  .MDS-icon{
+    display: flex;
+    padding: 1rem;
+    color: white;
+    justify-content:space-between;
+  }
+
+  .MDS-gift{
+    border: 1px solid white;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+
+  .MDS-info{
+    display: flex;
+    margin-bottom: 5px;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(8, 144, 228);
+    border-radius: 10px;
+  }
+  .zero{
+    font-size: 25px;
+  }
+
+  .MDS-layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+  }

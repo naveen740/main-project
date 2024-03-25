@@ -1,0 +1,284 @@
+/* CheckoutPage.css */
+
+.checkout-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.checkout-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.checkout-form {
+  margin-bottom: 30px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.shipping-details,
+.shipping-cost,
+.payment-method {
+  margin-bottom: 30px;
+}
+
+.continue-shopping,
+.confirm-order {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.order-summary-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.order-summary-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.order-summary-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.order-summary-item {
+  margin-bottom: 10px;
+}
+
+.total-amount {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+
+/* CheckoutPage.css */
+
+.shipping-details,
+.shipping-cost,
+.payment-method {
+  margin-bottom: 30px;
+}
+
+.shipping-details h3,
+.shipping-cost h3,
+.payment-method h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.shipping-details input,
+.shipping-cost input{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.shipping-details input::placeholder,
+.shipping-cost input::placeholder,
+.payment-method input::placeholder {
+  color: #aaa;
+}
+
+.shipping-details input[type="text"]:focus,
+.shipping-cost input[type="text"]:focus,
+.payment-method input[type="text"]:focus {
+  border-color: #007bff;
+}
+
+.shipping-details input[type="radio"] {
+  margin-right: 10px;
+}
+
+
+/* CheckoutPage.css */
+
+/* Styling for the payment radio buttons */
+.payment-method input[type="radio"] {
+  margin-right: 10px;
+}
+
+/* Styling for the payment radio button labels */
+.payment-method label {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+/* Styling for the payment radio button labels when hovered */
+.payment-method label:hover {
+  cursor: pointer;
+  color: #007bff;
+}
+
+
+
+.order-summary-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.order-summary-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.order-summary-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.order-summary-item {
+  margin-bottom: 10px;
+}
+
+.total-amount {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CheckoutPage.css */
+
+/* .checkout-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .checkout-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .order-summary-container {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .order-summary-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .order-summary-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .order-summary-item {
+    margin-bottom: 10px;
+  }
+  
+  .total-amount {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .checkout-buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .checkout-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .payment-section {
+    margin-top: 40px;
+  }
+  
+ 
+  
+  .payment-container {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .payment-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .payment-form {
+    margin-top: 20px;
+  }
+  
+  .card-element-container {
+    margin-bottom: 20px;
+  }
+  
+  .payment-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .payment-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+   */

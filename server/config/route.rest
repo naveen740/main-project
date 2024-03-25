@@ -1,0 +1,12 @@
+POST http://localhost:5000/api/profile-form
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjdXN0b21lcklkIjoiNjVmMTU3MDFhMTNhYzAwOTExYzI5ZGVmIiwiaWF0IjoxNzEwMzI4NDU1fQ.oGRVvd53H9pqVgWbbm5XxsQhu5eQDQeIsULtDm2atnQ
+
+{
+  "companyName": "Example Company",
+  "whatsappNumber": "1234567890",
+  "city": "Example City",
+  "state": "Example State",
+  "billingDetails": "Example Billing Details",
+  "shippingDetails": "Example Shipping Details"
+}

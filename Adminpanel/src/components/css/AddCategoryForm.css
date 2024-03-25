@@ -1,0 +1,85 @@
+.add-category-container {
+    grid-column: 2;
+    grid-row: 2;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px; /* Match border radius with AddProductForm */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Match box shadow with AddProductForm */
+    position: fixed; /* Match position with AddProductForm */
+    top: 50%; /* Match top with AddProductForm */
+    right: 0; /* Match right with AddProductForm */
+    transform: translate(100%, -50%); /* Match transform with AddProductForm */
+    width: calc(100% - 48px); /* Subtract padding from both sides */
+    max-width: 400px; /* Limit the maximum width of the form */
+    height: calc(100% - 48px); /* Subtract padding from top and bottom */
+    max-height: calc(100% - 48px); /* Limit the maximum height of the form */
+    overflow-y: auto; /* Enable vertical scroll if content overflows */
+  }
+  
+  .exit-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+  
+  .exit-icon svg {
+    font-size: 20px;
+    color: #777;
+  }
+  
+  .add-category-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .add-category-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-category-container input,
+  .add-category-container textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-category-container input[type="file"] {
+    display: none;
+  }
+  
+  .file-input-container {
+    position: relative;
+  }
+  
+  .upload-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .upload-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .custom-file-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .file-name {
+    margin-top: 5px;
+    color: #777;
+  }
+  

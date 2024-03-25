@@ -1,0 +1,14 @@
+/* Content */
+.cont {
+    background-color: rgb(17, 24, 39);
+    color: rgb(176, 176, 176);
+      grid-column: 2;
+      grid-row: 2;
+    padding: 20px;
+    height: 100vh;
+    
+  }
+
+  .new{
+    color:rgb(176, 176, 176)
+  }

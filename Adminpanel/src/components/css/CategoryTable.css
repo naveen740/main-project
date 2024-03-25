@@ -1,0 +1,67 @@
+.category-table {
+  border-radius: 10px; /* Adjust border radius as needed */
+  overflow: hidden;
+  margin-bottom: 5rem;
+  background-color: rgb(31 41 55 / 100%);
+}
+
+.category-table table {
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 10px;
+  background-color: rgb(31 41 55 / 100%);
+  color: rgba(156, 163, 175, 1);
+}
+
+.category-table th, .category-table td {
+  border-bottom: 1px solid rgba(55, 65, 81, 1);
+  padding: 8px;
+  text-align: left;
+  font-size: .75rem;
+  line-height: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .025em;
+  background-color: rgb(31 41 55 / 100%);
+}
+
+.category-table select {
+  background-color: rgb(31 41 55 / 100%);
+  color: rgba(156, 163, 175, 1);
+}
+
+.category-table .centered {
+  text-align: center; /* Align text horizontally to the center */
+}
+
+.category-table .fon {
+  display: flex;
+  justify-content: space-around;
+}
+
+.category-status {
+  display: inline-block; /* Ensures width works */
+  width: 100px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.category-selling {
+  background-color: rgb(5, 150, 105);
+  color: white;
+}
+
+.category-sold-out {
+  background-color: rgb(185, 32, 32);
+  color: white;
+}
+
+
+.trash-icon:hover {
+  color: rgb(185, 32, 32); /* Change color to red on hover */
+}

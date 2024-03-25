@@ -1,0 +1,8 @@
+.logout{
+    grid-column: 2;
+    grid-row: 2;
+    padding: 20px;
+    color: white;
+    
+    background-color: rgb(17, 24, 39)
+}

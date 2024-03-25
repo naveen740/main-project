@@ -1,0 +1,22 @@
+/* .category{
+    grid-column: 2;
+    grid-row: 2;
+    padding: 20px;
+    color: white;
+    
+    background-color: rgb(17, 24, 39)
+} */
+
+
+.form .gpu1{
+    display: grid;
+    grid-template-columns: 2fr 2fr ;
+    height: 48px;
+    width: 100%;
+    column-gap: 4rem;
+}
+
+.form .gpu1 .fil button:first-child{
+    background-color: rgb(5, 150, 105);
+    color: white;
+}

@@ -1,0 +1,115 @@
+/* AddProductForm.css */
+
+.add-product-container {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translate(100%, -50%);
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  z-index: 999;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  animation: fadeInRight 0.5s ease forwards;
+  width: calc(100% - 48px); /* Subtract padding from both sides */
+  max-width: 400px; /* Limit the maximum width of the form */
+  height: calc(100% - 48px); /* Subtract padding from top and bottom */
+  max-height: calc(100% - 48px); /* Limit the maximum height of the form */
+  overflow-y: auto; /* Enable vertical scroll if content overflows */
+}
+
+@media (max-width: 768px) {
+  .add-product-container {
+    width: 100%; /* Take full width on smaller screens */
+    max-width: none; /* Remove max-width constraint */
+  }
+}
+
+.exit-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.add-product-container h2 {
+  margin-top: 0;
+  color: #333333;
+}
+
+.add-product-container form {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.add-product-container input,
+.add-product-container button,
+.add-product-container label {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.add-product-container .file-input-container {
+  position: relative;
+}
+
+.add-product-container .upload-button {
+  cursor: pointer;
+  display: block;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.add-product-container .upload-button:hover {
+  background-color: #0056b3;
+}
+
+.add-product-container .custom-file-input {
+  opacity: 0;
+  width: 0.1px;
+  height: 0.1px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.add-product-container .file-name {
+  margin-top: 5px;
+  display: block;
+  color: #333333;
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translate(100%, -50%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, -50%);
+  }
+}
+
+@keyframes fadeOutLeft {
+  from {
+    opacity: 1;
+    transform: translate(0, -50%);
+  }
+  to {
+    opacity: 0;
+    transform: translate(100%, -50%);
+  }
+}
+
+.fade-out {
+  animation: fadeOutLeft 0.5s ease forwards;
+}

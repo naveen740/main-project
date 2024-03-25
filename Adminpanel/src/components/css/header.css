@@ -1,0 +1,26 @@
+.head {
+    grid-column: 2;
+    grid-row: 1;/* Dark background color */
+    background-color:rgb(31, 41, 55); 
+    color: white;
+    padding: 10px 20px;
+  }
+  .head1 {
+    display: flex;
+    justify-content: space-between; /* Aligns items to each end of the container */
+    align-items: center; /* Aligns items vertically */
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .left-icons, .right-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  

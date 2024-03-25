@@ -1,0 +1,30 @@
+/* App Container */
+.App {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  overflow-y: hidden; 
+  height: 100vh;
+  grid-template-columns: 300px 1fr; /* Slider takes 250px width, rest is for the content */
+  grid-template-rows: auto 1fr; /* First row auto-sized, second row takes the remaining space */
+ 
+  background-color:rgb(31, 41, 55);  /* Light background color */
+}
+
+
+.with-slider {
+  grid-template-columns: 250px 1fr; /* Keep the slider visible */
+}
+
+.without-slider {
+  grid-template-columns: 0 1fr; /* Hide the slider */
+}
+
+.form-container {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.form-container.show {
+  opacity: 1;
+}

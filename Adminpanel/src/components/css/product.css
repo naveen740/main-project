@@ -1,0 +1,142 @@
+.product{
+    grid-column: 2;
+    grid-row: 2;
+    padding: 0px 24px;
+    color: #D1D5DB;
+    font-size: 18px;
+    font-family: sans-serif;
+    overflow-y: auto; /* Enable vertical scroll if content overflows */
+    margin: 0;
+    background-color: rgb(17, 24, 39);
+}
+
+.content{
+    display: grid;
+    grid-template-rows: 70px 90px 100px auto; /* Create four rows each with equal height */
+    grid-template-columns: 1fr; /* Create one column */
+   /* Gap between grid items */
+    row-gap: 1rem;
+  height: max-content;
+}
+.btn{
+    width: max-content;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+}
+.btn1{
+    background-color: rgb(130, 136, 145);
+    color: black;
+    border: none;
+}
+.btn2{
+    background-color: rgb(143, 20, 27);
+    color: rgb(214, 214, 214);
+    border: none;
+}
+.btn3{
+    background-color: rgb(5, 150, 105);
+    border: none;
+}
+
+.nav{
+    display: flex;
+    padding: 20px;
+    background-color: rgb(31, 41, 55);
+    gap: 1rem;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.group1{
+    display: flex;
+    gap: 1rem;
+}
+.group2{
+    display: flex;
+    gap: 1rem;
+}
+.head5{
+    background-color: rgb(17, 24, 39);
+    margin: 24px 0px;
+    display: flex;
+    align-items: center;
+    height: 28px;
+}
+
+.filter{
+    background-color: rgb(31, 41, 55);
+    padding: 16px;
+    align-items: center;
+    border-radius: 10px;
+    height: fit-content;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0px;
+    align-items: center;
+    height: 72px;
+}
+.form .fil{
+    display: flex;
+    height: 48px;
+    gap: 1rem;
+}
+.form .fil button{
+    padding: 8px 16px;
+    width: 120px;
+    border-radius: 10px;
+
+}
+.form .fil .btn2{
+    background-color: rgb(55, 65, 81);
+}
+
+#category{
+    padding: 4px 8px;
+    width: 250px;
+    background-color: #374151;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+}
+#price{
+    padding: 4px 8px;
+    width: 250px;
+    background-color: #374151;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+}
+
+
+
+.form .gp1{
+    display: flex;
+    height: 48px;
+    gap: 2rem;
+}
+
+
+.form label{
+    display: block;
+}
+.form input{
+    width: 250px;
+    background-color: #374151;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+}
+.form input::placeholder {
+    color: #999; /* Desired color for the placeholder text */
+  }
+
